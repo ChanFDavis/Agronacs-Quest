@@ -1,9 +1,8 @@
 # Revision began on 9/5/2018
 import pygame, random, os
 
-picked_level = random.choice(os.listdir("\\iastate.edu\cyfiles\cfdavis\Documents\Agronac's Quest\Agronac's Quest\Agronac's Quest\levels"))
-
-level_directory = "\\iastate.edu\cyfiles\cfdavis\Documents\Agronac's Quest\Agronac's Quest\Agronac's Quest\levels"
+level_directory = "levels/"
+picked_level = random.choice(os.listdir(level_directory))
 
 level_title = picked_level.rstrip(".txt")
 

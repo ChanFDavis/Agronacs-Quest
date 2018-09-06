@@ -7,3 +7,26 @@ Traceback (most recent call last):
   File "agronacs_quest.py", line 3, in <module>
     picked_level = random.choice(os.listdir("\\iastate.edu\cyfiles\cfdavis\Documents\Agronac's Quest\Agronac's Quest\Agronac's Quest\levels"))
 WindowsError: [Error 3] The system cannot find the path specified: "\\iastate.edu\\cyfiles\\cfdavis\\Documents\\Agronac's Quest\\Agronac's Quest\\Agronac's Quest\\levels/*.*"
+Traceback (most recent call last):
+  File "pyg.py", line 22, in <module>
+  File "runpy.pyc", line 239, in run_path
+  File "runpy.pyc", line 215, in _get_code_from_file
+IOError: [Errno 2] No such file or directory: 'agronacs_quest.py'
+Traceback (most recent call last):
+  File "pyg.py", line 22, in <module>
+  File "runpy.pyc", line 239, in run_path
+  File "runpy.pyc", line 215, in _get_code_from_file
+IOError: [Errno 2] No such file or directory: 'agronacs_quest.py'
+Traceback (most recent call last):
+  File "pyg.py", line 22, in <module>
+  File "runpy.pyc", line 239, in run_path
+  File "runpy.pyc", line 215, in _get_code_from_file
+IOError: [Errno 2] No such file or directory: 'agronacs_quest.py'
+Traceback (most recent call last):
+  File "pyg.py", line 22, in <module>
+  File "runpy.pyc", line 240, in run_path
+  File "runpy.pyc", line 82, in _run_module_code
+  File "runpy.pyc", line 72, in _run_code
+  File "agronacs_quest_revised.py", line 40, in <module>
+    level_file = open(level_directory + picked_level)
+IOError: [Errno 2] No such file or directory: 'levelsGrassy Hills.txt'
